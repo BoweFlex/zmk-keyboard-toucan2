@@ -2,6 +2,8 @@
 
 [The beekeeb Toucan2 Keyboard](https://beekeeb.com/introducing-toucan2/) is a wireless split 42-key column‑stagger keyboard that a display and a trackpad, with an aggressive stagger on the pinky columns.
 
+This is Jonathan Bowe's Keymap for his Toucan2.
+
 # Customizations
 
 - **Keymap**: [config/toucan.keymap](config/toucan.keymap)
