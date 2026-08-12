@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define HOME 0
+#define BASE 0
 #define NAV  1
 #define SYM  2
 #define ADJ  3
@@ -58,7 +58,7 @@
         compatible = "zmk,keymap";
 
         base {
-            display-name = "HOME";
+            display-name = "BASE";
             bindings = <
                 &kp ESC   &kp Q &kp W          &kp E          &kp R           &kp T   &kp Y &kp U           &kp I           &kp O           &kp P    &trans
                 &kp COLON &kp A &hml LCTRL S   &hml LALT D    &hml LGUI F     &kp G   &kp H &hmr RGUI J     &hmr RALT K     &hmr RCTRL L    &kp SQT  &kp SEMI
@@ -110,10 +110,10 @@
         game {
             display-name = "GAME";
             bindings = <
-                &kp ESC   &kp Q &kp W          &kp E          &kp R           &kp T   &kp Y &kp U           &kp I           &kp O           &kp P    &to HOME
+                &kp ESC   &kp Q &kp W          &kp E          &kp R           &kp T   &kp Y &kp U           &kp I           &kp O           &kp P    &to BASE
                 &kp TAB   &kp A &kp S          &kp D          &kp F           &kp G   &kp H &kp J           &kp K           &kp L           &kp SQT  &kp SEMI
                 &kp LALT  &kp Z &kp X          &kp C          &kp V           &kp B   &kp N &kp M           &kp COMMA       &kp DOT         &kp FSLH &trans
-                                &kp LCTRL      &kp SPACE      &kp LSHFT       &kp RET &kp BKSP  &to HOME
+                                &kp LCTRL      &kp SPACE      &kp LSHFT       &kp RET &kp BKSP  &to BASE
             >;
         };
 
